@@ -1,3 +1,5 @@
+import Actions from '../../constants/actions'
+
 interface IAction {
   type: string
   payload: any
@@ -13,7 +15,7 @@ const initialState = {
 
 const HomeReducer = (state: IHomeState = initialState, action: IAction) => {
   switch (action.type) {
-    case 'CHANGE_HOME_TITLE': {
+    case Actions.HOME.CHANGE_HOME_TITLE: {
       return { ...state, title: action.payload }
     }
 
