@@ -23,4 +23,6 @@ To learn React Hooks, check out the [React Hooks](https://reactjs.org/docs/hooks
 - Custom HOCs
 - Custom Hooks
 - Router setup
-- Global Contants
+- Global Contants:
+ + Action type: Done
+ + App Constants: Not yet.
