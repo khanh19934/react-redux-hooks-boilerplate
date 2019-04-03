@@ -1,6 +1,8 @@
+import Actions from '../../../constants/actions'
+
 export const changeTitle = dispatch => (payload: string) => {
   return dispatch({
-    type: 'CHANGE_HOME_TITLE',
+    type: Actions.HOME.CHANGE_HOME_TITLE,
     payload
   })
 }
